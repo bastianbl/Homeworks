@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin-right: 10px;
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.etiqueta {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.url {
+  font-size: 14px;
+  color: #555;
+}
+
+.botones {
+  margin-top: 15px;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 6px 6px 0 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+}
+
+button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+button.peligro {
+  background-color: #e74c3c;
+}
+
+button.peligro:hover:not(:disabled) {
+  background-color: #c0392b;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.lista li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.lista li:last-child {
+  border-bottom: none;
+}
+
+.lista li.activo {
+  background-color: #eaf4ff;
+  font-weight: bold;
+}
