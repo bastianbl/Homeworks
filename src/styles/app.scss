@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.formulario {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+
+  input {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+
+  button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    background: #dc2626;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.lista {
+  display: grid;
+  gap: 12px;
+}
+
+.tarjeta {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.tarjeta.hecha {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+.error {
+  color: #dc2626;
+  margin-bottom: 12px;
+}
